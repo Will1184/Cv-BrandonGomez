@@ -69,22 +69,36 @@ header span img{
     height: auto
 }
 .dark{
-    width: 96px;
+    width: 94px;
     align-items: center;
-    max-width: 800px;
+    max-width: 97px;
     margin: auto;
+    margin-top: 10px;
     margin-bottom:35px;
+    background-color:  rgb(116, 190, 192);
+    border-radius: 8px;
+   
+    
     
 }
-
-.dark-mode{
+.dark>button{
+    
+    background-color:rgb(116, 190, 192);
+    color: rgb(255, 255, 255);
+    transition-duration: 0.4s;
+    border-radius: 8px ;
+    border: none
+    }
+.dark>button:hover{
+    background-color: cadetblue;
+    color: rgb(255, 253, 253);
+  
+}
+    
+.dark_mode{
     background-color: rgb(70, 70, 70);
     color: rgb(255, 255, 255);
     margin: auto;
-}
-
-.dark{
-    background-color: rgb(137, 133, 133);
 }
 
 .flex-container2{
@@ -180,6 +194,7 @@ margin: 0%;
     text-decoration: none;
     display: inline-block;
     text-indent:0px;
+    transition-duration: 0.4s;
 }
 .Certificados>a:hover,a:active{
     background-color: rgb(187, 187, 187);
