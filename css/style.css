@@ -45,17 +45,19 @@ header{
      margin-right: 10%;
 }
 header h1{
-    text-align: center;
-    margin: 20px;
+    text-align: start;
+    margin: 0px;
+    margin-top: 20px;
+    margin-bottom: 0px;
     font-size: 20px;
 }
 header h2{
-    
+    margin-top: 10px;
     margin-bottom: 0%;
 }
 header p{
     margin: 0%;
-    font-size: 14.49px;
+    font-size: 0.86em;
 }
 
 header span{
@@ -130,6 +132,30 @@ margin: 0%;
     height: 100%;
     background-color: white;
 }
+.certificados-download li{    
+    margin-bottom: 10px;
+}
+.certificados-download div{        
+    margin-top: 10px;
+}
+.certificados-download a{   
+    background-color: gray;
+    border-radius: 6px;     
+    color: white;
+    display: inline-block;
+    font-size: 1em;    
+    margin-top: 10px;
+    padding: 10px 20px;
+    text-decoration: none;    
+    transition-duration: 0.2s;
+}
+.certificados-download a:hover{       
+    background-color: rgb(187, 187, 187);    
+}
+.badge .img-badge{
+    width: 60px;
+}
+
 
 .Segundacolumna{
     width: 510px;
@@ -186,6 +212,7 @@ margin: 0%;
 
 .Certificados>a:link,a:visited{
     background-color: gray;
+    border-radius:5px;
     color: white;
     width: auto;
     margin-left: 30px;
@@ -243,7 +270,7 @@ margin: 0%;
         width: 100%;
         padding: 0px;
         box-shadow: 5px 5px 10px 5px rgb(179, 175, 175);
-        border-radius:10px;
+        border-radius:20px;
     }
     h1{
         font-size: 1em;
@@ -261,9 +288,9 @@ margin: 0%;
         font-size: 0.8em;
         letter-spacing: -0.6px;
         font-family:'Nunito Sans', sans-serif; 
-    }
-    header{
-        margin-left: 15px;
+    }    
+    .text{
+        font-size: 0.8em;        
     }
     .flex-container1{
         width: auto;
@@ -273,17 +300,18 @@ margin: 0%;
     header h2{
         margin-left: 5px;
     }
-    header p{
+    header>p{        
         margin-left: 5px;
-      
+        font-size: 0.7em;
     }
     header span{
-        padding: 2px 5px 2px 3px;
-        border-radius: 0;
+        padding: 2px 5px 2px 3px;        
     }
     header span img{
         width:70px;
-        margin:10px;
+        height: auto;
+        padding: 10px 20px;
+        border-top-left-radius: 20px;
     }
     .flex-container2{
         width: auto;
@@ -293,18 +321,27 @@ margin: 0%;
         
     }
     .Primeracolumna{
-        width: auto;
         margin-left: 5px;
         margin-right: 5px;
         padding: 10%;
+        width: auto;
+    }
+    .certificados-download a{        
+         display: inline-block;
+         padding: 5px 10px;         
     }
     .Segundacolumna{
         width: auto;
         text-indent: 15px;
     }
+    .Certificados>a:link,a:visited{        
+        width: 150px;
+        margin-left: 5px;
+        padding: 8px 25px;                
+    }
     .flex-container3{
         width: 100%;
-        border-radius: 0;
+        
     }  
 }
 @media only screen and (max-width: 300px){
@@ -325,16 +362,10 @@ margin: 0%;
         letter-spacing: -0.6px;
         font-family:'Nunito Sans', sans-serif; 
     }
-    .Certificados>a:link,a:visited{
-        background-color: gray;
-        color: white;
+    .Certificados>a:link,a:visited{    
         width: 100px;
-        margin-left: 30px;
-        padding: 1px 25px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        text-indent:0px;
+        margin-left: 5px;
+        padding: 5px 25px;        
     }
     .flex-container3{
         font-size: 14.5px;

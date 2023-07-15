@@ -11,5 +11,13 @@
   "dependencies": {
     "gh-pages": "^4.0.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Will1184/Cv-BrandonGomez.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Will1184/Cv-BrandonGomez/issues"
+  },
+  "homepage": "https://github.com/Will1184/Cv-BrandonGomez#readme",
   "description": ""
 }
