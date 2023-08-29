@@ -25,12 +25,14 @@ h3{
     font-style: italic;
     font-family: 'Nunito Sans', sans-serif;  
 }
-p{
+a{
     font-size: 1em;
-    letter-spacing: -0.6px;
+    font-family:'Nunito Sans', sans-serif;     
+}
+span{
+    font-size: 1.2em;
     font-family:'Nunito Sans', sans-serif; 
 }
-
 .flex-container1{
     width: 800px;
     display: flex;
@@ -136,6 +138,10 @@ margin: 0%;
     left: 0%;
     height: 100%;
     background-color: white;
+}
+.contacto p{
+    font-size: 1.1em;    
+    font-family:'Nunito Sans', sans-serif; 
 }
 .icon-envelop{
     cursor: pointer;
