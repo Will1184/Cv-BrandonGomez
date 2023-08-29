@@ -26,7 +26,7 @@ h3{
     font-family: 'Nunito Sans', sans-serif;  
 }
 p{
-    font-size: 0.5em;    
+    font-size: 1em;    
     font-family:'Nunito Sans', sans-serif; 
 }
 a{
@@ -64,7 +64,7 @@ header h2{
 }
 header p{
     margin: 0;
-    font-size: 0.76em;
+    font-size: 0.80em;
 }
 
 header span{
