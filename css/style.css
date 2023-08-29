@@ -25,6 +25,10 @@ h3{
     font-style: italic;
     font-family: 'Nunito Sans', sans-serif;  
 }
+p{
+    font-size: 0.5em;    
+    font-family:'Nunito Sans', sans-serif; 
+}
 a{
     font-size: 1em;
     font-family:'Nunito Sans', sans-serif;     
@@ -59,8 +63,8 @@ header h2{
     margin-bottom: 0%;
 }
 header p{
-    margin: 0%;
-    font-size: 0.86em;
+    margin: 0;
+    font-size: 0.76em;
 }
 
 header span{
@@ -303,8 +307,12 @@ margin: 0%;
         letter-spacing: -0.6px;
         font-family:'Nunito Sans', sans-serif; 
     }    
+    span{
+        font-size: 1.2em;
+        font-family:'Nunito Sans', sans-serif; 
+    }
     .text{
-        font-size: 0.8em;        
+        font-size: 1.2em;        
     }
     .flex-container1{
         width: auto;
@@ -375,6 +383,9 @@ margin: 0%;
         font-size: 0.77em;
         letter-spacing: -0.6px;
         font-family:'Nunito Sans', sans-serif; 
+    }
+    .text{
+        font-size: 1.2em;        
     }
     .Certificados>a:link,a:visited{    
         width: 100px;
