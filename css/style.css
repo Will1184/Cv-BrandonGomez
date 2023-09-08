@@ -303,13 +303,16 @@ margin: 0%;
         font-family: 'Nunito Sans', sans-serif;  
     }
     p{
-        font-size: 0.8em;
-        letter-spacing: -0.6px;
+        font-size: 1.2em;        
         font-family:'Nunito Sans', sans-serif; 
     }    
     span{
-        font-size: 1.2em;
+        font-size: 0.9em;
         font-family:'Nunito Sans', sans-serif; 
+    }
+    a{
+        font-size: 1.2em;
+        font-family:'Nunito Sans', sans-serif;     
     }
     .text{
         font-size: 1.2em;        
@@ -318,8 +321,9 @@ margin: 0%;
         width: auto;
         display: flex;
         flex-direction: column;
-    }
+    }    
     header h2{
+        margin:0;
         margin-left: 5px;
     }
     header>p{        
@@ -335,14 +339,30 @@ margin: 0%;
         padding: 10px 20px;
         border-top-left-radius: 20px;
     }
+    header p{
+        font-size: 1em;
+    }
+    #mode{
+    left: 60%;
+    top: 10px;
+    }
+    .icon-brightness-contrast{    
+        font-size: 1.9em;
+    }
+    #mode:hover{        
+        transform: scale(1.1);    
+        transition: 0.1s;
+    }
+       
     .flex-container2{
         width: auto;
         display: flex;
         flex-direction: column;
-        margin: 0%;
-        
+        margin: 0%;            
     }
     .Primeracolumna{
+        border-radius: 4px;
+        margin-top: 5px;
         margin-left: 5px;
         margin-right: 5px;
         padding: 10%;
@@ -355,6 +375,10 @@ margin: 0%;
     .Segundacolumna{
         width: auto;
         text-indent: 15px;
+    }
+    .Segundacolumna p{
+        font-size: 0.9em;
+        font-weight: 590
     }
     .Certificados>a:link,a:visited{        
         width: 150px;
@@ -386,6 +410,21 @@ margin: 0%;
     }
     .text{
         font-size: 1.2em;        
+    }
+    #mode{
+        left: 45%;
+        top: 10px;
+        }
+        .icon-brightness-contrast{    
+            font-size: 1.4em;
+        }
+        #mode:hover{        
+            transform: scale(0.8);    
+            transition: 0.1s;
+        }
+    .Segundacolumna p{
+        font-size: 0.9em;
+        font-weight: 590
     }
     .Certificados>a:link,a:visited{    
         width: 100px;
