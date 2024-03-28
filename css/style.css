@@ -44,12 +44,30 @@ span{
     margin: 0%;
     
 }
-header{
-     float: right;
-     text-align: justify;
-     font-size: 15px;
-     margin-bottom: 0%;
-     margin-right: 10%;
+header{     
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    justify-content: space-between;
+    font-size: 15px;
+    margin-bottom: 0%;
+    padding-right: 5%;      
+}
+.header-photo{
+    width: 100%;
+    background-color:rgb(223, 223, 223);
+    border-top-left-radius: 20px;   
+    padding: 30px 9.2%;    
+    margin-right: 10px;
+}
+.header-photo img{   
+    width: 150px;
+    height: auto;              
+}
+.header-content{
+    display: flex;
+    flex-direction: column;    
+    justify-content: space-around;    
 }
 header h1{
     text-align: start;
@@ -67,13 +85,7 @@ header p{
     font-size: 0.80em;
 }
 
-header span{
-    float: left;
-    margin-right: 3%;
-    padding: 30px 70px 35px 70px;
-    background-color:rgb(223, 223, 223);
-    border-top-left-radius: 20px;  
-}
+
 
 header span img{
     width:150px;
@@ -82,11 +94,11 @@ header span img{
 
 #mode{
     background: none;
-    border: none;
-    left: 60%;
-    cursor: pointer;
+    border: none;        
+    cursor: pointer; 
     position: relative;
-    top: 20px;
+    top: -10px;
+    left: -50px;
 }
 .icon-brightness-contrast{
     color: rgb(36, 35, 35);
@@ -125,8 +137,7 @@ header span img{
     box-shadow: 15px 15px 20px 5px rgb(37, 37, 37);
     transition: 0.2s;    
 }
-.dark_mode .icon-brightness-contrast{
-    color:  rgb(255, 255, 255);
+.dark_mode .icon-brightness-contrast{    
     font-size: 2em;
     transition: 0.5s;
 }
@@ -317,6 +328,25 @@ margin: 0%;
         box-shadow: 5px 5px 10px 5px rgb(179, 175, 175);
         border-radius:20px;
     }
+    header{        
+        flex-direction: column;
+    }
+    .header-photo{
+        display: flex;
+        flex-direction: column;
+        width: 86%;
+        border-top-right-radius: 20px;  
+        margin-right: 0px;
+        padding: 30px 9.2%;  
+    }
+    .header-photo img{   
+        width: 150px;
+        height: auto;              
+    }
+    #mode{    
+        top: 10px;          
+        left: 50%;
+    }
     h1{
         font-size: 1em;
         font-family: 'Montserrat' , sans-serif;
@@ -360,19 +390,16 @@ margin: 0%;
     header span{
         padding: 2px 5px 2px 3px;        
     }
-    header span img{
-        width:70px;
-        height: auto;
-        padding: 10px 20px;
+    .header-photo img{        
+        width: 170px;
+        margin: auto;        
+        height: auto;        
         border-top-left-radius: 20px;
     }
     header p{
         font-size: 1em;
     }
-    #mode{
-    left: 60%;
-    top: 10px;
-    }
+
     .icon-brightness-contrast{    
         font-size: 1.9em;
     }

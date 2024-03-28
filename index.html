@@ -16,22 +16,25 @@
         <div id="Principal">
             <div class="flex-container1"> 
                 <header>            
-                    <button type="button" id="mode" onclick="change_mode()" title="Dark-Mode">                        
-                        <div class="icon-brightness-contrast"></div>
-                    </button>
-                    <button type="button" id="generate-pdf" title="Descargar-Pdf"><span class="icon-download3"></span></button>
-                    <span><img src="Img/Foto.jpeg" alt="MI FOTO"></span> 
-                    <h1>BRANDON WILLIAM GOMEZ MONGE</h1>
-                    <h2>Mi experencias y expectativas</h2>
-                    <p>Soy una persona apasionada por el mundo de la informática. 
-                        Mi formación comenzó en la universidad, donde participé en proyectos propios 
-                        y realicé actividades asignadas como tareas. 
-                        Además, continúo tomando cursos para potenciar mis habilidades. 
-                        El mundo de la programación ha sido una experiencia fenomenal. 
-                        Es increíble cuando lo que creamos funciona y nos sentimos orgullosos de ello.
-                        Mi objetivo laboral es trabajar de manera adecuada, donde la comunicación sea
-                        clave para la cooperación entre compañeros, y al mismo tiempo, 
-                        lograr finalizar proyectos de manera satisfactoria.</p>
+                    <div class="header-photo">
+                        <button type="menu" id="mode" onclick="change_mode()" title="Dark-Mode">                        
+                            <div class="icon-brightness-contrast"></div>
+                        </button> 
+                        <img  src="Img/Foto.jpeg" alt="MI FOTO">
+                    </div> 
+                    <div class="header-content">
+                        <h1>BRANDON WILLIAM GOMEZ MONGE</h1>
+                        <h2>Mi experencias y expectativas</h2>
+                        <p>Soy una persona apasionada por el mundo de la informática. 
+                            Mi formación comenzó en la universidad, donde participé en proyectos propios 
+                            y realicé actividades asignadas como tareas. 
+                            Además, continúo tomando cursos para potenciar mis habilidades. 
+                            El mundo de la programación ha sido una experiencia fenomenal. 
+                            Es increíble cuando lo que creamos funciona y nos sentimos orgullosos de ello.
+                            Mi objetivo laboral es trabajar de manera adecuada, donde la comunicación sea
+                            clave para la cooperación entre compañeros, y al mismo tiempo, 
+                            lograr finalizar proyectos de manera satisfactoria.</p>
+                    </div>                                       
                 </header>
             </div>
            
@@ -136,7 +139,7 @@
                     <article class="badge">
                         <h1>Badge</h1>
                         <span>
-                            <a href="documents/introduction-to-cybersecurity.png" target="_blank">
+                            <a href="documents/introduction-to-cybersecurity.png" target="_blank"   >
                                 <img class="img-badge" src="documents/introduction-to-cybersecurity.png" alt="certificado-cisco">                            
                             </a>
                         </span>
@@ -225,7 +228,7 @@
                                 <span class="icon-facebook"><a href="https://www.facebook.com/brandon.gomez.98622733/" target="_blank"> Facebook</a></span>                                
                             </li>
                         </ul>
-                        <p>Derechos Reservados 2023</p>
+                        <p>Derechos Reservados <div id="aa" style="font-family: 'Nunito Sans', sans-serif;"></div></p>
                     </footer>
                     <script src="js/index.js"></script>
                     <script src="js/html2pdf.bundle.min.js"></script>
