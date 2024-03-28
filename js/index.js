@@ -31,8 +31,13 @@ function generateResume() {
   html2pdf(areaCv, opt);
 }
 
-resumeButton.addEventListener("click", () => {  
-  scaleCv();
-  generateResume();
-  setTimeout(removeScale, 5000);
-});
+// resumeButton.addEventListener("click", () => {  
+//   scaleCv();
+//   generateResume();
+//   setTimeout(removeScale, 5000);
+// });
+
+const getCurrentYear=()=> {
+  return new Date().getFullYear();  
+}
+document.querySelector("#aa").textContent=getCurrentYear();
